@@ -3,7 +3,7 @@
 
 - Clone the repository.
 ```
-git clone https://github.com/noorkhokhar99/car-parking-finder.git
+(https://github.com/DineshKumar2025-dev/Ai-Car-parking.git)
 ```
 - Goto the cloned folder.
 ```
