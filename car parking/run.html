@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+  <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+						initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="car.css">
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+          <div class="logo">
+            <a href="#">D-mart</a>
+          </div>
+          <ul>
+            <li><a href="run.html">Parking details</a></li>
+            <li><a href="contact2.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <py-config type="json">
+          {
+            "packages": [
+              "numpy",
+              "sympy",
+              
+            ],
+            
+            "plugins": [
+              "tutor.py"
+            ]
+          }
+      </py-config>
+     <py-script >
+      import numpy as np
+
+# Creating array object
+arr = np.array( [[ 1, 2, 3],
+				[ 4, 2, 5]] )
+
+# Printing type of arr object
+print("Array is of type: ", type(arr))
+
+# Printing array dimensions (axes)
+print("No. of dimensions: ", arr.ndim)
+
+# Printing shape of array
+print("Shape of array: ", arr.shape)
+
+# Printing size (total number of elements) of array
+print("Size of array: ", arr.size)
+
+# Printing type of elements in array
+print("Array stores elements of type: ", arr.dtype)
+
+
+     </py-script>
+      
+      
+    </nav>
+</body>
+</html>
